@@ -1,2 +1,7 @@
 # PTRA-Net
 PTRA-Net: Text-Image Person Re-Identification with Prioritized Tokens and Rearranged Attention
+
+Text-Image Person Re-Identification (TI-ReID) tasks manage to retrieve the target person in the gallery by using auxiliary textual description. Recent works are inclined to adopt Transformer as their backbones. However, the application of Transformer inevitably leads to the introduction of noise and the inefficiency in aligning relation between visual and textual description due to the uncontrolled attention assignment. To enhance model's capacity of capturing prime features, we propose a method called Prioritized Token with Rearranged Attention Network (PTRA-Net), which puts forward Importance-Guided Token Prioritization module (IGTP) to explicitly prioritize the discriminative features. Moreover, we propose the Background Misclassification Loss (BML) to eliminate the negative effect of background noise and drive model to preserve informative features that are misclassified as background. We further conduct Dense Similarity Alignment (DSA) in the purpose of motivating model to learn tighter mapping between text and image inputs. We perform comprehensive experiments on CUHK-PEDES, ICFG-PEDES and RSTPReid datasets. On above three benchmarks, we all achieve tremendous amount of improvement in five metrics. For instance, PTRA-Net achieves 83.67%, 63.67% and 56.54% in Rank-1, 70.57%, 40.45% and 51.32% in mAP, respectively.
+
+
+Ps. The code will be released after the paper accepted, many thanks for your concern.
